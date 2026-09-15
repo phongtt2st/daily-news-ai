@@ -87,10 +87,14 @@ credentials. If you keep a separate local copy with your real
 copy is never committed or pushed to GitHub — only publish a copy with the
 placeholder values shown above.
 
-(Optional) Edit the `SOURCES` dictionary further down in `daily_news.py` to
-add, remove, or reorder RSS feeds, or change `ARTICLES_PER_SOURCE` to pull
-more or fewer articles per feed.
-
+(Optional)
+You can further customize the `SOURCES` dictionary in `daily_news.py` to add,
+remove, or reorganize RSS feeds, and adjust `ARTICLES_PER_SOURCE` to retrieve
+more or fewer articles from each feed. RSS feeds for websites can typically
+be found through Google search. If a website lacks an RSS feed or the feed
+is non-functional, you can use a free RSS generator available on Google by
+inputting the website's URL to generate an RSS feed. Be aware that some
+newspapers may block access or have non-working RSS feeds.
 ## Running
 
 ```bash
